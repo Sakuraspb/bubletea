@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    background-color: #F5C98C;
+    height:100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    list-style-image: url("pictures/flower.png");
+    justify-content: space-between;
+    margin: 60px 0;
+}
+
+.button {
+    font-size: 48px;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-family: 'Kaisei Decol';
+    letter-spacing: -0.16em;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 35%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 150px;
+    color: #e57c78;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-family: 'Italianno';
+}
+
+.card {
+    background-color: #FDEFEB;
+    background-image: url(../pictures/background.png);
+    margin-bottom: 35px;
+}
+
+.name {
+    font-family: 'Italianno';
+    font-size: 250px;
+    text-align: center;
+    text-shadow: 0px 30px 17px rgba(0, 0, 0, 0.25);
+    color: #e57c78;
+}
+
+.cardtext {
+    font-family: 'Kurale';
+    font-size: 37px;
+    color: #e57c78;
+    width: 750px;
+    height: 550px;
+    text-align: justify;
+    margin: 0 5vw;
+    display: inline-block;
+    margin-bottom: 5vh;
+}
+
+.cardimage {
+    display: inline-block;
+    margin-right: 1vw;
+}
+
+.secondcard {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FDEFEB;
+    background-image: url(../pictures/background.png);
+    margin-bottom: 35px;
+}
+
+.secondcardimage {
+    width: 730px;
+    margin: 5%;
+}
+
+.secondcardtext {
+    font-family: 'Kurale';
+    font-size: 64px;
+    color: #e57c78;
+    width: 900px;
+    text-align: justify;
+    margin: 150px 0;
+}
+
+.secondcardtext>span {
+    font-family: 'Italianno';
+    font-size: 147px;
+}
+
+.thirdcard {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FDEFEB;
+    background-image: url(../pictures/background.png);
+    margin-bottom: 35px;
+}
+
+.thirdcardtext {
+    width: 950px;
+    font-family: 'Kurale';
+    font-size: 64px;
+    color: #e57c78;
+    text-align: justify;
+    margin: 120px 0 0 100px; 
+}
+
+.thirdcardtext>span {
+    font-family: 'Italianno';
+    font-size: 147px;
+    color: #F5C98C;
+}
+
+.thirdcardimage {
+    width: 630px;
+    margin: 5%;
+}
+
+.number {
+    font-family: 'Kurale';
+    color: #FFF;
+    font-size: 67px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.icons {
+    text-align: center;
+    word-spacing: 1em;
+    margin-bottom: 30px;
+}
+
+.fa {
+    font-size: 70px;
+    text-decoration: none;
+    color: #e3980e;
+}

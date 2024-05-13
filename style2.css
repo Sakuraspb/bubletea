@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    background-color: #F5C98C;
+    height:100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    list-style-image: url("pictures/flower.png");
+    justify-content: space-between;
+    margin: 60px 0;
+}
+
+.button {
+    font-size: 48px;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-family: 'Kaisei Decol';
+    letter-spacing: -0.16em;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 35%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 150px;
+    color: #e57c78;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-family: 'Italianno';
+}
+
+.name {
+    color: #E57C78;
+    font-size: 179px;
+    text-transform: uppercase;
+    text-shadow: 0 30px 17px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    background-color: #FDEFEB;
+    background-image: url("pictures/background.png");
+    padding-top: 3%;
+}
+
+.plate {
+    background-color: #FDEFEB;
+    background-image: url("pictures/background.png");
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 900px 100px;
+    padding-top: 100px;
+    margin-bottom: 35px;
+}
+
+.plateimage {
+    justify-self: center;
+
+}
+
+.platetext {
+    justify-self: center;
+    font-size: 90px;
+    font-family: 'Kurale';
+    color: #e57c78;
+    margin-top: 30%;
+}
+
+.platetext ul {
+    font-size: 70px;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.platetext p {
+    text-align: center;
+}
+
+.addition {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    font-family: 'Kurale';
+    color: #e57c78;
+    font-size: 48px;
+}
+
+.number {
+    font-family: 'Kurale';
+    color: #FFF;
+    font-size: 67px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+    word-spacing: 1em;
+    margin-bottom: 30px;
+}
+
+.fa {
+    font-size: 70px;
+    text-decoration: none;
+    color: #e3980e;
+}
